@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Tiro de dados</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/dados.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <script src="js/dados.js"></script>
+</head>
+<body>
+<div id="buttonarea">
+    <button class="btn btn-success" onclick="lanzardados()">
+        LANZAR DADOS
+    </button>
+    <button class="btn btn-success" onclick="mostrar()">
+        MOSTRAR TABLA
+    </button>
+</div>
+<ol>
+    <li>
+        <img src="img/dice1.png"  alt="Imagen del dado" id="ImgDado1" /> 
+        
+                
+    </li>
+    <li>
+        <img src="img/dice1.png"  alt="Imagen del dado" id="ImgDado2"/>
+            
+    </li>
+    <li>
+        <img src="img/dice1.png" id="ImgDado3" alt="Imagen del dado" />
+        
+    </li>
+  </ol>
+  <div class="pun">
+  <h5><b>SUMA DE LOS DADOS</b></h5>
+  <button>
+      <h2 id="SumaDados">0</h2>
+  </button>  
+</div>
+  <table class="tabla" id="tabla">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Puntaje</th>
+      </tr>
+    </thead>
+    <tbody id="puntos">
+      <tr >
+
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
